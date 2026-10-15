@@ -1,35 +1,31 @@
 # Android Live
 
-저장하면 실행 중인 Android 앱에 약 1초 만에 반영돼요. 재설치도, 재시작도 없어요. Claude, Codex, AGY 같은
-에이전트가 동시에 고쳐도 각각의 저장이 바로 화면에 나타나요.
+English | [한국어](README.ko.md)
+
+Saves reach the running Android app in about a second, with no reinstall and no restart. Even with Claude, Codex and
+AGY editing at the same time, each save shows up on the screen right away.
 
 ![Android Live](preview.png)
 
-## 하는 일
+## What it does
 
-- 문구, 레이아웃, 스타일, 새 화면과 새 파일, 비즈니스 로직, 버튼 동작을 고치면 실행 중인 앱에 바로 반영돼요.
-- 화면에서 바뀐 부분만 다시 그려서, 다른 화면의 상태와 ViewModel 상태는 그대로 남아요.
-- 컴파일 오류는 위치와 함께 보여 주고, 앱은 하던 대로 계속 돌아요.
-- 리소스(strings.xml, 이미지), 매니페스트, Gradle 파일 변경은 재빌드가 필요하다고 알려 주고, `재빌드` 한 번이면
-  다시 Live로 이어져요.
+- Text, layout, style, new screens and new files, business logic and button behavior change in the running app.
+- Only what changed is redrawn, so other screens' state and ViewModel state stay as they were.
+- A compile error is shown with its location, and the app keeps running what it had.
+- Resources (strings.xml, images), the manifest and Gradle files are reported as needing a rebuild; one **Rebuild**
+  and Live continues.
 
-## 쓰는 곳
+## Where to use it
 
-Moru의 Devices 도구에서 Android 기기 머리줄의 `Live` 스위치를 켜면 돼요. 미러 아래 한 줄에 결과가 나와요.
+Turn on `Live` in an Android device's header in Moru's Devices tool. The result shows in one line under the mirror.
 
-## 필요 조건
+## Requirements
 
-- Android SDK(adb, build-tools)와 JDK 17 이상
-- 디버그 빌드, Android 12 이상 기기나 에뮬레이터
-- Jetpack Compose 앱이면 화면 다시 그리기까지 돼요
+- Android SDK (adb, build-tools) and JDK 17 or later
+- A debug build on an Android 12 or later device or emulator
+- For a Jetpack Compose app, the screen redraws as well
 
-## 알려진 한계
+## Known limits
 
-- 직접 고친 Composable 안의 `remember` 상태는 초기화돼요.
-- Live 밖에서 앱을 다시 시작하면 재빌드가 필요해요.
-
----
-
-Saves reach the running Android app in about a second, without a reinstall or restart: text, layout, style, new
-screens and files, logic and behavior. Only what changed is redrawn; resources and Gradle files ask for a rebuild.
-Turn on `Live` for an Android device in Moru's Devices tool.
+- `remember` state inside the composable you edited resets.
+- An app restarted outside Live needs a rebuild.

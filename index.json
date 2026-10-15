@@ -4,19 +4,34 @@
         {
             "id": "dev.moru.live-android",
             "name": "Android Live",
-            "version": "26.42.0",
+            "version": "26.42.1",
             "author": "taehwandev",
             "official": true,
-            "description": "Saves reach the running Android app in about a second, without a reinstall or restart.",
-            "description_ko": "저장하면 실행 중인 Android 앱에 약 1초 만에 반영돼요. 재설치나 재시작이 없어요.",
+            "description": {
+                "en": "Saves reach the running Android app in about a second, without a reinstall or restart.",
+                "ko": "저장하면 실행 중인 Android 앱에 약 1초 만에 반영돼요. 재설치나 재시작이 없어요."
+            },
             "contributes": ["deviceLive:android"],
-            "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-android-26.42.0/live-android-26.42.0.zip",
-            "size": 5097099,
-            "sha256": "1cdc5a2825f0acdd6bc6c3004fdd750ea7189f8d95e5aa521b686e681135a55a",
-            "readme": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-android/README.md",
+            "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-android-26.42.1/live-android-26.42.1.zip",
+            "size": 5098695,
+            "sha256": "5fd0d6fa2a1b5f67d8d532fa6d802e6bae8c3906b73cc293eb97b436711a6484",
+            "readme": {
+                "en": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-android/README.md",
+                "ko": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-android/README.ko.md"
+            },
             "preview": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-android/preview.png",
             "changes": [
-                { "version": "26.42.0", "notes_ko": "첫 공개 버전", "notes": "First release" }
+                {
+                    "version": "26.42.1",
+                    "notes": {
+                        "en": "Text and introduction in every language Moru shows (English and Korean so far).",
+                        "ko": "설명과 소개 글이 Moru의 언어를 따라가요(지금은 영어와 한국어)."
+                    }
+                },
+                {
+                    "version": "26.42.0",
+                    "notes": { "en": "First release.", "ko": "첫 공개 버전." }
+                }
             ]
         }
     ]
