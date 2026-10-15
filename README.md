@@ -52,4 +52,4 @@ A plugin is a folder with a `moru-plugin.json` at its root:
 | Plugin | Version | What it does |
 |---|---|---|
 | [Android Live](plugins/live-android/README.md) | [26.42.1](https://github.com/taehwandev/moru-plugins/releases/tag/live-android-26.42.1) | Saves reach the running Android app in about a second, without a restart |
-| [iOS Live](plugins/live-ios/README.md) | [26.42.0](https://github.com/taehwandev/moru-plugins/releases/tag/live-ios-26.42.0) | Saves reach the SwiftUI app in the iOS Simulator in about a second, without a restart |
+| [iOS Live](plugins/live-ios/README.md) | [26.42.1](https://github.com/taehwandev/moru-plugins/releases/tag/live-ios-26.42.1) | Saves reach the SwiftUI app in the iOS Simulator in about a second, without a restart |

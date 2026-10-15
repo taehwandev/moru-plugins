@@ -42,7 +42,7 @@
         {
             "id": "dev.moru.live-ios",
             "name": "iOS Live",
-            "version": "26.42.0",
+            "version": "26.42.1",
             "author": "taehwandev",
             "official": true,
             "description": {
@@ -52,15 +52,22 @@
             "contributes": [
                 "deviceLive:ios"
             ],
-            "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-ios-26.42.0/live-ios-26.42.0.zip",
-            "size": 3601419,
-            "sha256": "2485f70d74deee7e4ee5428f5eb7ecb31baab3f3af4ee4592064701b0dd60b49",
+            "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-ios-26.42.1/live-ios-26.42.1.zip",
+            "size": 3602353,
+            "sha256": "edba48c96884c3bf80f67b67fdd63f19ca781837b76a057f4580b7222cfdea02",
             "readme": {
                 "en": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-ios/README.md",
                 "ko": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-ios/README.ko.md"
             },
             "preview": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-ios/preview.png",
             "changes": [
+                {
+                    "version": "26.42.1",
+                    "notes": {
+                        "en": "Moru's Rebuild and turning Live off reach the plugin; a build that cannot start says why.",
+                        "ko": "Moru의 다시 빌드와 Live 끄기가 플러그인에 전달되고, 시작하지 못한 빌드는 이유를 알려 줘요."
+                    }
+                },
                 {
                     "version": "26.42.0",
                     "notes": {
