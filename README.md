@@ -51,6 +51,6 @@ an entry in `index.json` with the zip's URL and SHA-256.
 
 ## 공식 플러그인 / Official plugins
 
-| 이름 | 하는 일 |
-|---|---|
-| Android Live | 저장하면 실행 중인 Android 앱에 약 1초 만에 반영 (재시작 없음) |
+| 이름 | 버전 | 하는 일 |
+|---|---|---|
+| [Android Live](plugins/live-android/README.md) | [26.42.0](https://github.com/taehwandev/moru-plugins/releases/tag/live-android-26.42.0) | 저장하면 실행 중인 Android 앱에 약 1초 만에 반영 (재시작 없음) |
