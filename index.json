@@ -1,0 +1,23 @@
+{
+    "schema": 1,
+    "plugins": [
+        {
+            "id": "dev.moru.live-android",
+            "name": "Android Live",
+            "version": "26.42.0",
+            "author": "taehwandev",
+            "official": true,
+            "description": "Saves reach the running Android app in about a second, without a reinstall or restart.",
+            "description_ko": "저장하면 실행 중인 Android 앱에 약 1초 만에 반영돼요. 재설치나 재시작이 없어요.",
+            "contributes": ["deviceLive:android"],
+            "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-android-26.42.0/live-android-26.42.0.zip",
+            "size": 5097099,
+            "sha256": "1cdc5a2825f0acdd6bc6c3004fdd750ea7189f8d95e5aa521b686e681135a55a",
+            "readme": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-android/README.md",
+            "preview": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-android/preview.png",
+            "changes": [
+                { "version": "26.42.0", "notes_ko": "첫 공개 버전", "notes": "First release" }
+            ]
+        }
+    ]
+}
