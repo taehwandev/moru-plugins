@@ -11,7 +11,9 @@
                 "en": "Saves reach the running Android app in about a second, without a reinstall or restart.",
                 "ko": "저장하면 실행 중인 Android 앱에 약 1초 만에 반영돼요. 재설치나 재시작이 없어요."
             },
-            "contributes": ["deviceLive:android"],
+            "contributes": [
+                "deviceLive:android"
+            ],
             "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-android-26.42.1/live-android-26.42.1.zip",
             "size": 5098695,
             "sha256": "5fd0d6fa2a1b5f67d8d532fa6d802e6bae8c3906b73cc293eb97b436711a6484",
@@ -30,7 +32,41 @@
                 },
                 {
                     "version": "26.42.0",
-                    "notes": { "en": "First release.", "ko": "첫 공개 버전." }
+                    "notes": {
+                        "en": "First release.",
+                        "ko": "첫 공개 버전."
+                    }
+                }
+            ]
+        },
+        {
+            "id": "dev.moru.live-ios",
+            "name": "iOS Live",
+            "version": "26.42.0",
+            "author": "taehwandev",
+            "official": true,
+            "description": {
+                "en": "Saves reach the SwiftUI app running in the iOS Simulator in about a second, without a reinstall or restart.",
+                "ko": "저장하면 iOS 시뮬레이터에서 실행 중인 SwiftUI 앱에 약 1초 만에 반영돼요. 재설치나 재시작이 없어요."
+            },
+            "contributes": [
+                "deviceLive:ios"
+            ],
+            "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-ios-26.42.0/live-ios-26.42.0.zip",
+            "size": 3601419,
+            "sha256": "2485f70d74deee7e4ee5428f5eb7ecb31baab3f3af4ee4592064701b0dd60b49",
+            "readme": {
+                "en": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-ios/README.md",
+                "ko": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-ios/README.ko.md"
+            },
+            "preview": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-ios/preview.png",
+            "changes": [
+                {
+                    "version": "26.42.0",
+                    "notes": {
+                        "en": "First release.",
+                        "ko": "첫 공개 버전."
+                    }
                 }
             ]
         }
