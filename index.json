@@ -4,7 +4,7 @@
         {
             "id": "dev.moru.live-android",
             "name": "Android Live (Alpha)",
-            "version": "26.42.7",
+            "version": "26.42.8",
             "author": "taehwandev",
             "official": true,
             "description": {
@@ -14,15 +14,22 @@
             "contributes": [
                 "deviceLive:android"
             ],
-            "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-android-26.42.7/live-android-26.42.7.zip",
-            "size": 5135557,
-            "sha256": "044c98063a76a7737a1bbe66143590c53da18b3809bba7a2609a41cdd78fcced",
+            "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-android-26.42.8/live-android-26.42.8.zip",
+            "size": 5141317,
+            "sha256": "2f595013ddb3fba84442141681bef61ee13c979f3c6205418cf31d4914d4d416",
             "readme": {
                 "en": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-android/README.md",
                 "ko": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-android/README.ko.md"
             },
             "preview": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-android/preview.png",
             "changes": [
+                {
+                    "version": "26.42.8",
+                    "notes": {
+                        "en": "Changes that cannot be sent live (resources, build files, stored properties), branch switches included, now rebuild and relaunch the app by themselves; no Rebuild click. iOS also rebuilds after an Xcode update.",
+                        "ko": "Live로 보낼 수 없는 변경(리소스, 빌드 파일, 저장 속성)은 브랜치를 바꿨을 때도 알아서 다시 빌드하고 앱을 다시 실행해요. 재빌드를 누를 필요가 없어요. iOS는 Xcode를 업데이트한 뒤에도 다시 빌드해요."
+                    }
+                },
                 {
                     "version": "26.42.7",
                     "notes": {
@@ -77,7 +84,7 @@
         {
             "id": "dev.moru.live-ios",
             "name": "iOS Live (Alpha)",
-            "version": "26.42.8",
+            "version": "26.42.9",
             "author": "taehwandev",
             "official": true,
             "description": {
@@ -87,15 +94,22 @@
             "contributes": [
                 "deviceLive:ios"
             ],
-            "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-ios-26.42.8/live-ios-26.42.8.zip",
-            "size": 3683582,
-            "sha256": "81553a087f2bc1fd24e8ee61e971d879c3fffafbeab0ead52a6df50b25a0948c",
+            "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-ios-26.42.9/live-ios-26.42.9.zip",
+            "size": 3684520,
+            "sha256": "7fcbabcf241cde34b922635c91712ffd7bdbef7d9ada88f61db88a967bd7d1ac",
             "readme": {
                 "en": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-ios/README.md",
                 "ko": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-ios/README.ko.md"
             },
             "preview": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-ios/preview.png",
             "changes": [
+                {
+                    "version": "26.42.9",
+                    "notes": {
+                        "en": "Changes that cannot be sent live (resources, build files, stored properties), branch switches included, now rebuild and relaunch the app by themselves; no Rebuild click. iOS also rebuilds after an Xcode update.",
+                        "ko": "Live로 보낼 수 없는 변경(리소스, 빌드 파일, 저장 속성)은 브랜치를 바꿨을 때도 알아서 다시 빌드하고 앱을 다시 실행해요. 재빌드를 누를 필요가 없어요. iOS는 Xcode를 업데이트한 뒤에도 다시 빌드해요."
+                    }
+                },
                 {
                     "version": "26.42.8",
                     "notes": {
