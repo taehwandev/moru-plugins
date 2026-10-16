@@ -4,7 +4,7 @@
         {
             "id": "dev.moru.live-android",
             "name": "Android Live (Alpha)",
-            "version": "26.42.4",
+            "version": "26.42.5",
             "author": "taehwandev",
             "official": true,
             "description": {
@@ -14,15 +14,22 @@
             "contributes": [
                 "deviceLive:android"
             ],
-            "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-android-26.42.4/live-android-26.42.4.zip",
-            "size": 5116420,
-            "sha256": "c11d3ab5e4295fbdcb60071048d9777d77f2b97cdd726389d6ade08ad838e6a3",
+            "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-android-26.42.5/live-android-26.42.5.zip",
+            "size": 5129629,
+            "sha256": "6f64efe396dc14c0aad8e086b416869a2760b0a99f831aaa36ff774bf20e0626",
             "readme": {
                 "en": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-android/README.md",
                 "ko": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-android/README.ko.md"
             },
             "preview": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-android/preview.png",
             "changes": [
+                {
+                    "version": "26.42.5",
+                    "notes": {
+                        "en": "Live now runs any build under your project's own names (build variants, schemes in their Run configuration); with more than one, pick it beside the Live switch.",
+                        "ko": "Live가 프로젝트에서 붙인 이름 그대로 모든 빌드(build variant, Run 설정의 scheme)를 실행해요. 여러 개면 Live 스위치 옆에서 골라요."
+                    }
+                },
                 {
                     "version": "26.42.4",
                     "notes": {
@@ -63,7 +70,7 @@
         {
             "id": "dev.moru.live-ios",
             "name": "iOS Live (Alpha)",
-            "version": "26.42.5",
+            "version": "26.42.6",
             "author": "taehwandev",
             "official": true,
             "description": {
@@ -73,15 +80,22 @@
             "contributes": [
                 "deviceLive:ios"
             ],
-            "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-ios-26.42.5/live-ios-26.42.5.zip",
-            "size": 3656673,
-            "sha256": "52b26bc619aa986d5f839a47268396d48dba50c1ece97fcb48cc157aa0bcb469",
+            "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-ios-26.42.6/live-ios-26.42.6.zip",
+            "size": 3665972,
+            "sha256": "1d0be47927f2f5cbee07ad9a3849b4630f8a46b779e0ae40b4d0a66d6abaf2e2",
             "readme": {
                 "en": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-ios/README.md",
                 "ko": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-ios/README.ko.md"
             },
             "preview": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-ios/preview.png",
             "changes": [
+                {
+                    "version": "26.42.6",
+                    "notes": {
+                        "en": "Live now runs any build under your project's own names (build variants, schemes in their Run configuration); with more than one, pick it beside the Live switch.",
+                        "ko": "Live가 프로젝트에서 붙인 이름 그대로 모든 빌드(build variant, Run 설정의 scheme)를 실행해요. 여러 개면 Live 스위치 옆에서 골라요."
+                    }
+                },
                 {
                     "version": "26.42.5",
                     "notes": {
