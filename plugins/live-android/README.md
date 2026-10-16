@@ -2,6 +2,8 @@
 
 English | [한국어](README.ko.md)
 
+> **Alpha.** Expect rough edges: some changes still need a rebuild, and behavior may change between versions.
+
 Saves reach the running Android app in about a second, with no reinstall and no restart. Even with Claude, Codex and
 AGY editing at the same time, each save shows up on the screen right away.
 

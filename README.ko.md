@@ -50,5 +50,5 @@
 
 | 플러그인 | 버전 | 하는 일 |
 |---|---|---|
-| [Android Live](plugins/live-android/README.ko.md) | [26.42.1](https://github.com/taehwandev/moru-plugins/releases/tag/live-android-26.42.1) | 저장하면 실행 중인 Android 앱에 약 1초 만에 반영 (재시작 없음) |
-| [iOS Live](plugins/live-ios/README.ko.md) | [26.42.1](https://github.com/taehwandev/moru-plugins/releases/tag/live-ios-26.42.1) | 저장하면 iOS 시뮬레이터의 SwiftUI 앱에 약 1초 만에 반영 (재시작 없음) |
+| [Android Live (Alpha)](plugins/live-android/README.ko.md) | [26.42.2](https://github.com/taehwandev/moru-plugins/releases/tag/live-android-26.42.2) | 저장하면 실행 중인 Android 앱에 약 1초 만에 반영 (재시작 없음) |
+| [iOS Live (Alpha)](plugins/live-ios/README.ko.md) | [26.42.2](https://github.com/taehwandev/moru-plugins/releases/tag/live-ios-26.42.2) | 저장하면 iOS 시뮬레이터의 SwiftUI 앱에 약 1초 만에 반영 (재시작 없음) |

@@ -2,6 +2,8 @@
 
 English | [한국어](README.ko.md)
 
+> **Alpha.** Expect rough edges: some changes still need a rebuild, and behavior may change between versions.
+
 Save a Swift file and the SwiftUI app running in the iOS Simulator shows the change in about a second, in the same
 process, with its state kept. No reinstall, no restart.
 

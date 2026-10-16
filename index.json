@@ -3,26 +3,33 @@
     "plugins": [
         {
             "id": "dev.moru.live-android",
-            "name": "Android Live",
-            "version": "26.42.1",
+            "name": "Android Live (Alpha)",
+            "version": "26.42.2",
             "author": "taehwandev",
             "official": true,
             "description": {
-                "en": "Saves reach the running Android app in about a second, without a reinstall or restart.",
-                "ko": "저장하면 실행 중인 Android 앱에 약 1초 만에 반영돼요. 재설치나 재시작이 없어요."
+                "en": "Alpha: Saves reach the running Android app in about a second, without a reinstall or restart.",
+                "ko": "알파 버전: 저장하면 실행 중인 Android 앱에 약 1초 만에 반영돼요. 재설치나 재시작이 없어요."
             },
             "contributes": [
                 "deviceLive:android"
             ],
-            "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-android-26.42.1/live-android-26.42.1.zip",
-            "size": 5098695,
-            "sha256": "5fd0d6fa2a1b5f67d8d532fa6d802e6bae8c3906b73cc293eb97b436711a6484",
+            "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-android-26.42.2/live-android-26.42.2.zip",
+            "size": 5100706,
+            "sha256": "48d0f93840ae6e733b87805ee0c11a2a9d77f0f1ec43efaf13d28d4ccad2b872",
             "readme": {
                 "en": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-android/README.md",
                 "ko": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-android/README.ko.md"
             },
             "preview": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-android/preview.png",
             "changes": [
+                {
+                    "version": "26.42.2",
+                    "notes": {
+                        "en": "Marked as Alpha.",
+                        "ko": "알파 버전임을 표시했어요."
+                    }
+                },
                 {
                     "version": "26.42.1",
                     "notes": {
@@ -41,26 +48,33 @@
         },
         {
             "id": "dev.moru.live-ios",
-            "name": "iOS Live",
-            "version": "26.42.1",
+            "name": "iOS Live (Alpha)",
+            "version": "26.42.2",
             "author": "taehwandev",
             "official": true,
             "description": {
-                "en": "Saves reach the SwiftUI app running in the iOS Simulator in about a second, without a reinstall or restart.",
-                "ko": "저장하면 iOS 시뮬레이터에서 실행 중인 SwiftUI 앱에 약 1초 만에 반영돼요. 재설치나 재시작이 없어요."
+                "en": "Alpha: Saves reach the SwiftUI app running in the iOS Simulator in about a second, without a reinstall or restart.",
+                "ko": "알파 버전: 저장하면 iOS 시뮬레이터에서 실행 중인 SwiftUI 앱에 약 1초 만에 반영돼요. 재설치나 재시작이 없어요."
             },
             "contributes": [
                 "deviceLive:ios"
             ],
-            "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-ios-26.42.1/live-ios-26.42.1.zip",
-            "size": 3602353,
-            "sha256": "edba48c96884c3bf80f67b67fdd63f19ca781837b76a057f4580b7222cfdea02",
+            "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-ios-26.42.2/live-ios-26.42.2.zip",
+            "size": 3602530,
+            "sha256": "e5da8226e1f5131ac6e59945bee601bfcad995d85d70180b98ca62822542d503",
             "readme": {
                 "en": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-ios/README.md",
                 "ko": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-ios/README.ko.md"
             },
             "preview": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-ios/preview.png",
             "changes": [
+                {
+                    "version": "26.42.2",
+                    "notes": {
+                        "en": "Marked as Alpha.",
+                        "ko": "알파 버전임을 표시했어요."
+                    }
+                },
                 {
                     "version": "26.42.1",
                     "notes": {
