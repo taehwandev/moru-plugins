@@ -20,7 +20,7 @@ process, with its state kept. No reinstall, no restart.
 
 ## Where to use it
 
-Open a Task whose project has an `.xcodeproj` or `.xcworkspace`, then turn on `Live` for a simulator in Moru's Devices
+Open a Task whose project has an `.xcodeproj` or `.xcworkspace`, then turn on `Live` for a simulator or a connected iPhone in Moru's Devices
 tool. The first run builds the app (seconds); each save after that takes about a second.
 
 ## Requirements
@@ -30,5 +30,5 @@ tool. The first run builds the app (seconds); each save after that takes about a
 
 ## Known limits
 
-- Simulator only; physical devices are not supported.
+- Physical iPhones need a development team in the project's Signing settings; on hardware this is not yet verified.
 - UIKit screens change only after they redraw on their own.

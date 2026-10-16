@@ -56,7 +56,7 @@
         {
             "id": "dev.moru.live-ios",
             "name": "iOS Live (Alpha)",
-            "version": "26.42.3",
+            "version": "26.42.4",
             "author": "taehwandev",
             "official": true,
             "description": {
@@ -66,15 +66,22 @@
             "contributes": [
                 "deviceLive:ios"
             ],
-            "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-ios-26.42.3/live-ios-26.42.3.zip",
-            "size": 3605018,
-            "sha256": "b37f9d2b4e7b820d4196f018c44a31c101f3a1382c9b67985d661c87e6825b40",
+            "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-ios-26.42.4/live-ios-26.42.4.zip",
+            "size": 3640087,
+            "sha256": "a6e4f002fb4ad2f408238e7e53662ae2ee0c110f1b575a6f2c26768e371f6689",
             "readme": {
                 "en": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-ios/README.md",
                 "ko": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-ios/README.ko.md"
             },
             "preview": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-ios/preview.png",
             "changes": [
+                {
+                    "version": "26.42.4",
+                    "notes": {
+                        "en": "Physical iPhones: Live runs on a connected iPhone too (the project needs a development team). Not yet verified on hardware.",
+                        "ko": "iPhone 실기기: 연결된 iPhone에서도 Live가 동작해요(프로젝트에 개발 팀 설정 필요). 아직 실제 기기에서는 확인하지 못했어요."
+                    }
+                },
                 {
                     "version": "26.42.3",
                     "notes": {
