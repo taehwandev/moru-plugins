@@ -4,7 +4,7 @@
         {
             "id": "dev.moru.live-android",
             "name": "Android Live (Alpha)",
-            "version": "26.42.2",
+            "version": "26.42.3",
             "author": "taehwandev",
             "official": true,
             "description": {
@@ -14,15 +14,22 @@
             "contributes": [
                 "deviceLive:android"
             ],
-            "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-android-26.42.2/live-android-26.42.2.zip",
-            "size": 5100706,
-            "sha256": "48d0f93840ae6e733b87805ee0c11a2a9d77f0f1ec43efaf13d28d4ccad2b872",
+            "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-android-26.42.3/live-android-26.42.3.zip",
+            "size": 5101710,
+            "sha256": "fd74211ac156bad1c73d72b97162c502e1a3e536d19824b811be437d5b4fff29",
             "readme": {
                 "en": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-android/README.md",
                 "ko": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-android/README.ko.md"
             },
             "preview": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-android/preview.png",
             "changes": [
+                {
+                    "version": "26.42.3",
+                    "notes": {
+                        "en": "Long sessions stay light: the app keeps one copy of the agent, sent files are cleaned up, and a class is resent only when it really changed.",
+                        "ko": "오래 켜 둬도 가벼워요: 앱에 에이전트가 하나만 올라가고, 보낸 파일은 정리되며, 실제로 바뀐 클래스만 다시 보내요."
+                    }
+                },
                 {
                     "version": "26.42.2",
                     "notes": {
@@ -49,7 +56,7 @@
         {
             "id": "dev.moru.live-ios",
             "name": "iOS Live (Alpha)",
-            "version": "26.42.2",
+            "version": "26.42.3",
             "author": "taehwandev",
             "official": true,
             "description": {
@@ -59,15 +66,22 @@
             "contributes": [
                 "deviceLive:ios"
             ],
-            "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-ios-26.42.2/live-ios-26.42.2.zip",
-            "size": 3602530,
-            "sha256": "e5da8226e1f5131ac6e59945bee601bfcad995d85d70180b98ca62822542d503",
+            "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-ios-26.42.3/live-ios-26.42.3.zip",
+            "size": 3605018,
+            "sha256": "b37f9d2b4e7b820d4196f018c44a31c101f3a1382c9b67985d661c87e6825b40",
             "readme": {
                 "en": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-ios/README.md",
                 "ko": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-ios/README.ko.md"
             },
             "preview": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-ios/preview.png",
             "changes": [
+                {
+                    "version": "26.42.3",
+                    "notes": {
+                        "en": "Long sessions stay light: the plugin no longer grows in memory and cleans each save's build files.",
+                        "ko": "오래 켜 둬도 가벼워요: 플러그인 메모리가 늘지 않고, 저장마다 생기는 빌드 파일을 정리해요."
+                    }
+                },
                 {
                     "version": "26.42.2",
                     "notes": {
