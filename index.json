@@ -4,7 +4,7 @@
         {
             "id": "dev.moru.live-android",
             "name": "Android Live (Alpha)",
-            "version": "26.42.5",
+            "version": "26.42.7",
             "author": "taehwandev",
             "official": true,
             "description": {
@@ -14,15 +14,22 @@
             "contributes": [
                 "deviceLive:android"
             ],
-            "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-android-26.42.5/live-android-26.42.5.zip",
-            "size": 5129629,
-            "sha256": "6f64efe396dc14c0aad8e086b416869a2760b0a99f831aaa36ff774bf20e0626",
+            "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-android-26.42.7/live-android-26.42.7.zip",
+            "size": 5135557,
+            "sha256": "044c98063a76a7737a1bbe66143590c53da18b3809bba7a2609a41cdd78fcced",
             "readme": {
                 "en": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-android/README.md",
                 "ko": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-android/README.ko.md"
             },
             "preview": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-android/preview.png",
             "changes": [
+                {
+                    "version": "26.42.7",
+                    "notes": {
+                        "en": "Agents start Live from their own worktree (Live run from main moves there without reinstalling and comes back on stop) and open the screen they change with a deep link.",
+                        "ko": "에이전트가 자기 worktree에서 Live를 시작해요(main에서 쓰던 Live가 재설치 없이 넘어가고 끝나면 돌아와요). 고치는 화면은 딥링크로 열어요."
+                    }
+                },
                 {
                     "version": "26.42.5",
                     "notes": {
@@ -70,7 +77,7 @@
         {
             "id": "dev.moru.live-ios",
             "name": "iOS Live (Alpha)",
-            "version": "26.42.6",
+            "version": "26.42.8",
             "author": "taehwandev",
             "official": true,
             "description": {
@@ -80,15 +87,22 @@
             "contributes": [
                 "deviceLive:ios"
             ],
-            "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-ios-26.42.6/live-ios-26.42.6.zip",
-            "size": 3665972,
-            "sha256": "1d0be47927f2f5cbee07ad9a3849b4630f8a46b779e0ae40b4d0a66d6abaf2e2",
+            "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-ios-26.42.8/live-ios-26.42.8.zip",
+            "size": 3683582,
+            "sha256": "81553a087f2bc1fd24e8ee61e971d879c3fffafbeab0ead52a6df50b25a0948c",
             "readme": {
                 "en": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-ios/README.md",
                 "ko": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-ios/README.ko.md"
             },
             "preview": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-ios/preview.png",
             "changes": [
+                {
+                    "version": "26.42.8",
+                    "notes": {
+                        "en": "Agents start Live from their own worktree (Live run from main moves there without reinstalling and comes back on stop) and open the screen they change with a deep link.",
+                        "ko": "에이전트가 자기 worktree에서 Live를 시작해요(main에서 쓰던 Live가 재설치 없이 넘어가고 끝나면 돌아와요). 고치는 화면은 딥링크로 열어요."
+                    }
+                },
                 {
                     "version": "26.42.6",
                     "notes": {
