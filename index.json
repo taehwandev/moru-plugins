@@ -4,7 +4,7 @@
         {
             "id": "dev.moru.live-android",
             "name": "Android Live (Alpha)",
-            "version": "26.42.3",
+            "version": "26.42.4",
             "author": "taehwandev",
             "official": true,
             "description": {
@@ -14,15 +14,22 @@
             "contributes": [
                 "deviceLive:android"
             ],
-            "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-android-26.42.3/live-android-26.42.3.zip",
-            "size": 5101710,
-            "sha256": "fd74211ac156bad1c73d72b97162c502e1a3e536d19824b811be437d5b4fff29",
+            "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-android-26.42.4/live-android-26.42.4.zip",
+            "size": 5116420,
+            "sha256": "c11d3ab5e4295fbdcb60071048d9777d77f2b97cdd726389d6ade08ad838e6a3",
             "readme": {
                 "en": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-android/README.md",
                 "ko": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-android/README.ko.md"
             },
             "preview": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-android/preview.png",
             "changes": [
+                {
+                    "version": "26.42.4",
+                    "notes": {
+                        "en": "Turning Live on again no longer reinstalls: it attaches to the running app, or only launches it, and sends what was saved meanwhile.",
+                        "ko": "Live를 다시 켜도 재설치하지 않아요. 실행 중인 앱에 바로 붙거나 실행만 하고, 그동안 저장한 변경을 바로 보내요."
+                    }
+                },
                 {
                     "version": "26.42.3",
                     "notes": {
@@ -56,7 +63,7 @@
         {
             "id": "dev.moru.live-ios",
             "name": "iOS Live (Alpha)",
-            "version": "26.42.4",
+            "version": "26.42.5",
             "author": "taehwandev",
             "official": true,
             "description": {
@@ -66,15 +73,22 @@
             "contributes": [
                 "deviceLive:ios"
             ],
-            "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-ios-26.42.4/live-ios-26.42.4.zip",
-            "size": 3640087,
-            "sha256": "a6e4f002fb4ad2f408238e7e53662ae2ee0c110f1b575a6f2c26768e371f6689",
+            "download": "https://github.com/taehwandev/moru-plugins/releases/download/live-ios-26.42.5/live-ios-26.42.5.zip",
+            "size": 3656673,
+            "sha256": "52b26bc619aa986d5f839a47268396d48dba50c1ece97fcb48cc157aa0bcb469",
             "readme": {
                 "en": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-ios/README.md",
                 "ko": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-ios/README.ko.md"
             },
             "preview": "https://raw.githubusercontent.com/taehwandev/moru-plugins/main/plugins/live-ios/preview.png",
             "changes": [
+                {
+                    "version": "26.42.5",
+                    "notes": {
+                        "en": "Turning Live on again no longer reinstalls: it attaches to the running app, or only launches it, and sends what was saved meanwhile.",
+                        "ko": "Live를 다시 켜도 재설치하지 않아요. 실행 중인 앱에 바로 붙거나 실행만 하고, 그동안 저장한 변경을 바로 보내요."
+                    }
+                },
                 {
                     "version": "26.42.4",
                     "notes": {
